@@ -52,6 +52,15 @@ main{
 .player{
     display: flex;
     align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+    border-radius:30px;
+    margin-right: 20px;
+}
+.player:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 0.5s ease-in-out;
 }
 .player img{
     width: 56px;

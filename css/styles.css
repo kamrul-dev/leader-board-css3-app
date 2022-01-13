@@ -1,0 +1,60 @@
+/* import Poppins fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&family=Raleway:wght@700&display=swap');
+
+/* common styles and utilities */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+.container{
+    width: 870px;
+    padding: 30px;
+    margin-top: 36px;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+}
+/* -----------------------
+        Start top player and blog section 
+    -------------------------------------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-title{
+    color:#562EFF;
+    font-size: 24px;
+    margin-bottom: 30px;
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    row-gap: 30px;
+
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+/* -----------------------
+        End top player and blog section 
+    -------------------------------------------*/
